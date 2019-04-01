@@ -1,5 +1,5 @@
-# iOS Plugin
-the project is iOS plugin for [iOS](https://www.apple.com/jp/ios/ios-12/).
+# Plugin(iOS)
+the project is iOS plugin for [iOS](https://www.apple.com/jp/ios).
 
 ## Description
 the project is develoed by Xcode(10.1).
@@ -11,10 +11,24 @@ iOS plugin supported iOS10.0 Later.
 ## Usage
 ***Notes on use for iOS***
 
-1.Copy Podfile to your project.
+1.Add to the following command to Podfile in your project.
+- Objective-C
 
-- Podfile(Objective-C):https://github.com/ucreates/ios_plugin_client/blob/master/objectivec/Podfile
-- Podfile(Swift):https://github.com/ucreates/ios_plugin_client/blob/master/swift/Podfile
+```
+use_frameworks!
+pod 'iOSObjectiveCPlugin', git: 'https://github.com/ucreates/ios_plugin/', branch: 'master'
+```
+
+- Swift
+
+```
+use_frameworks!
+pod 'iOSSwiftPlugin', git: 'https://github.com/ucreates/ios_plugin/', branch: 'master'
+```
+
+* See the following examples.
+  * Podfile(Objective-C):https://github.com/ucreates/ios_plugin_client/blob/master/objectivec/Podfile
+  * Podfile(Swift):https://github.com/ucreates/ios_plugin_client/blob/master/swift/Podfile
 
 2.Execute command in your ios project.
 
