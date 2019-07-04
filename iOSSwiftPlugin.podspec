@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = 'https://twitter.com/UCreates'
   s.platform     = :ios, '10.0'
   s.source       = { git: 'https://github.com/ucreates/ios_plugin.git', branch: 'master' }
-  s.source_files  = 'iOSSwiftPlugin/Classes/Frontend/Notify/*.swift'
+  s.source_files  = 'iOSSwiftPlugin/**/*.swift'
   s.exclude_files = ''
   s.static_framework = true
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase/CoreOnly/Sources' }

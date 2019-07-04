@@ -7,7 +7,8 @@
 // If such findings are accepted at any time.
 // We hope the tips and helpful in developing.
 // ======================================================================
-import Firebase
+import FirebaseCore
+import FirebaseMessaging
 import FirebaseInstanceID
 import Foundation
 import UIKit
