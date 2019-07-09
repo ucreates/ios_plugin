@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'iOSSwiftPlugin'
   s.version      = '1.0.0'
-  s.summary      = 'iOSPlugin(iOSSwift)'
-  s.description  = 'sample'
+  s.summary      = 'Plugin(Swift)'
+  s.description  = 'Plugin for iOS/Swift'
   s.homepage     = 'https://github.com/ucreates/ios_plugin'
   s.license      = 'MIT'
   s.author             = { 'U-CREATES' => 'ucreates.inc@gmail.com' }
